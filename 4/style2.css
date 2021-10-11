@@ -78,7 +78,9 @@ td .wood
   left: 0;
   right: 0;
   background: #5D2906;
-  color: #b76f20
+  color: #b76f20;
+  font-size: 32px;
+  
 }
 
 td .white
