@@ -70,14 +70,15 @@ td:after
   margin-top: 100%;
 }
 
-td .gold
+td .wood
 {
   position: absolute;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
-  background: gold;
+  background: #5D2906;
+  color: #b76f20
 }
 
 td .white
