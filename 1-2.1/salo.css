@@ -1,0 +1,19 @@
+.first {
+	font-weight: bold;
+}
+.second{
+	font-style: italic
+}
+.oy{
+	color: yellow
+}
+.tyt{
+	color: red
+}
+.kek{
+	color: #000000
+	font-weight: lighter
+}
+body{
+	background-color: rgba(0, 155, 255, 1);
+}

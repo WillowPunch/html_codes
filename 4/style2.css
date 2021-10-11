@@ -1,0 +1,197 @@
+body
+{
+  background-color: #A0B0CC;
+}
+
+article
+{
+  display: block;
+  padding: 5px;
+  font-size: 2em;
+}
+
+div img
+{
+  border-radius: 2em;
+  box-shadow: 0 0 30px;
+}
+
+div~img
+{
+  transition: box-shadow linear 0.15s;
+  border-radius: 2em;
+  box-shadow:
+  30px 25px 10px white,
+  -30px 35px 20px black,
+  -10px -15px 10px white,
+  10px -25px 30px black;
+}
+
+div~img:hover
+{
+  transition: box-shadow linear 0.15s;
+  border-radius: 2em;
+  box-shadow:
+  20px 15px 30px black,
+  -20px 15px 30px white,
+  -20px -15px 30px black,
+  20px -15px 30px white;
+}
+
+article~div
+{
+    border-radius: 10px;
+    background: #eeece0;
+    box-shadow: 7px 7px 5px rgba(0,0,0,0.5);
+    padding: 10px;
+    font-size: 2em;
+}
+
+article~div:after
+{
+    content: ' \2660 \2661 \2662 \2663 \03B1 \03B2 \03B3 \03B4 \2122 \00BC \00BD \00BE \00B6 \00A7 \2013 \8482 \269C \2014 \2020 \0024 \262D \269B \2620 \2626';
+}
+
+table
+{
+  width: 30%;
+}
+
+td
+{
+  width: 10%;
+  position: relative;
+}
+
+td:after
+{
+  content: '';
+  display: block;
+  margin-top: 100%;
+}
+
+td .gold
+{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: gold;
+}
+
+td .white
+{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: white;
+}
+
+td .black
+{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: black;
+}
+
+.chart-number
+{
+  font-size: 0.8em;
+  line-height: 1;
+  text-anchor: middle;
+  -moz-transform: translateY(0.25em);
+  -ms-transform: translateY(0.25em);
+  -webkit-transform: translateY(0.25em);
+  transform: translateY(0.25em);
+}
+
+.relative
+{
+  width: 30vw;
+  height: 30vw;
+  background: silver;
+  border: solid gold;
+  text-align: center;
+  padding: 1em;
+  margin-right: -50%;
+  margin-top: 40px;
+  position: relative;
+  top: 50%;
+  color: gold;
+  font-size: 10vw;
+}
+
+.form
+{
+  margin-top: 40px;
+  width: fit-content;
+  padding: 40px;
+  border-radius: 10px;
+  background: #f4f4f4;
+}
+
+.form p
+{
+  font-size: 18px;
+}
+
+.form input
+{
+  border: none;
+  font-size: 16px;
+  height: 30px;
+  background: #eaeaea;
+  margin-left: 10px;
+  border-radius: 5px;
+}
+
+.form input:valid + span:before
+{
+  content: '\2713';
+}
+
+.form input:invalid + span:before
+{
+  content: '\002A';
+}
+
+.form span
+{
+  margin-left: 10px;
+}
+
+.form button
+{
+  margin-top: 20px;
+  padding: 20px 30px;
+  border: none;
+  background: silver;
+  color: gold;
+  font-size: 20px;
+}
+
+ul
+{
+  font-size: 20px;
+  list-style-type: none;
+}
+
+ul li
+{
+  margin-bottom: 10px;
+}
+
+ul li input:checked + span
+{
+  background: yellow;
+}
+
+h1{font-size: 300%; color: #000000;}
+h2{font-size: 300%; color: #000000;}
+h3{font-size: 300%; color: #000000;}
